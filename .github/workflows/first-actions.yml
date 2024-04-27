@@ -20,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: |
        # python3 -m pip install --upgrade pip
-        pipx install pytest
+        pip install pytest
 
     - name: Run tests
       run: |
